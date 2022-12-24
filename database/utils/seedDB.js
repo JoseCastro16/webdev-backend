@@ -12,19 +12,19 @@ const seedDB = async () => {
   });
 
   const dummyTask = await Task.create({
-    description: "Homework",
+    description: "Paperwork",
     priority: "Low",
     status: "Completed",
   });
 
   const dummyTask2 = await Task.create({
-    description: "Final",
+    description: "Do research",
     priority: "High",
     status: "Not Completed",
   });
 
   const dummyTask3 = await Task.create({
-    description: "Find a club",
+    description: "Answer emails",
     priority: "Medium",
     status: "Not Completed",
   });
